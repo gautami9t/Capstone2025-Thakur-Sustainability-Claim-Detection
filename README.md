@@ -1,2 +1,7 @@
-# Capstone2025-Gautami-Sustainability-Claim-Detection
+# Capstone2025-Gautami-Hierarchical-Multi-label-Classification
 Capstone Project for MSc in Data Analytics
+
+
+The files ClimateBERT_S1.ipynb, DeBERTa_S1.ipynb and RoBERTa_S1.ipynb contain the Stage-1 (Yes/No) training pipeline for Environmental Claim Detection using ClimateBERT, DeBERTa-v3 and RoBERTa respectively. It focuses on binary classification of ESG-related text, determining whether a sentence contains an environmental claim (Yes) or not (No). The notebook covers preprocessing, tokenization with HuggingFace Transformers, model fine-tuning, and evaluation with metrics such as accuracy, precision, recall, and F1-scores, all implemented with reproducible seeds. This Stage-1 baseline forms the foundation for later stages of hierarchical multi-label ESG claim classification.
+
+The files RoBERTa_S2.ipynb, DeBERTa_S2.ipynb and RoBERTa_S2.ipynb contain the Stage-2 training pipeline for Environmental Claim Detection using RoBERTa, where the best hyperparameters identified during Stage-1 are reused to perform hierarchical multi-label classification across ESG categories and subcategories. Building on the binary claim detection of Stage-1, this notebook extends the task to a fine-grained ESG taxonomy through multi-label fine-tuning, ablation experiments, and evaluation with metrics tailored to hierarchical classification (e.g., micro/macro‑F1, LRAP). This Stage-2 RoBERTa pipeline serves as a key step towards developing a complete fin-grained ESG claim detection framework.
