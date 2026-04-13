@@ -1,4 +1,4 @@
-# Greenwashing Detection — Hierarchical Multi-Label ESG Claim Classification
+# Hierarchical Multi-Label Classification of Environmental, Social and Governance Claims
 
 **MSc Computer Science (Data Analytics) — Capstone Project**  
 **Gautami Thakur | University of Galway, 2025**
